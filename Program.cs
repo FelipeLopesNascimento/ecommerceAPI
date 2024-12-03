@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
+builder.Services.AddControllers();
 builder.Services.AddDbContext<ProductContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoPadrao")));
 builder.Services.AddEndpointsApiExplorer();
@@ -19,5 +20,5 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.MapControllers();
 app.Run();

@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using ecommerceAPI.models;
+using ecommerceAPI.Models;
 
 namespace ecommerceAPI.Context
 {
@@ -10,6 +10,6 @@ namespace ecommerceAPI.Context
 
         }
 
-        
+        public DbSet<Product> Products { get; set; }
     }
 }
