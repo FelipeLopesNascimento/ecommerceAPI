@@ -23,4 +23,3 @@ Backend: C# e ASP.NET Core.
 
 Banco de Dados: SQL Server integrado via Entity Framework Core.
 
-Outras Ferramentas: Swagger para documentação e Kestrel como servidor web.
