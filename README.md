@@ -1,4 +1,4 @@
-#API para E-commerce de Loja de Artesanato 🛠️
+# API para E-commerce de Loja de Artesanato 🛠️
 
 Este projeto é uma API desenvolvida em C# com .NET Core e SQL Server, criada para suportar as operações de um e-commerce de produtos artesanais. Ela fornece uma base robusta para o gerenciamento de produtos, categorias e outras funcionalidades necessárias para a operação de uma loja online.
 
